@@ -33,7 +33,7 @@ class Body
 
   public:
     Body(std::string s) { shape = s; }
-    std::string getShape() { return shape; }
+    std::string getShape() const { return shape; }
 };
 
 // Final product -- a car
